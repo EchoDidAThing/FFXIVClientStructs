@@ -41,9 +41,9 @@ public unsafe partial struct EffectContainer {
     [FieldOffset(0x64)] public float Set3TiltSpeed;
     [FieldOffset(0x68)] public TiltFlags Set3TiltFlags;
 
-    [FieldOffset(0x6E)] public TiltOrigin Set4TiltOrigin;
-    [FieldOffset(0x6C)] public byte Set4Unk1;
-    [FieldOffset(0x6D)] public ushort Set4Unk2;
+    [FieldOffset(0x6C)] public TiltOrigin Set4TiltOrigin;
+    [FieldOffset(0x6D)] public byte Set4Unk1;
+    [FieldOffset(0x6E)] public ushort Set4Unk2;
     [FieldOffset(0x70)] public float Set4TiltAngle;
     [FieldOffset(0x74)] public float Set4TiltSpeed;
     [FieldOffset(0x78)] public TiltFlags Set4ReverseTilt;
